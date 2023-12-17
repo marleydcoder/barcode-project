@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;700&display=swap');
+
+:root{
+	--White: hsl(0, 0%, 100%);
+ --Light-gray: hsl(212, 45%, 89%);
+ --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(246, 77%, 19%);
+}
+
+*{
+  box-sizing: border-box;
+  font-family: 'outfit', sans-serif;
+  font-size: 15px;
+}
+
+/*Applying of flexbox to our container */
+
+body{
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Light-gray);
+  
+  /* margin: 0; */
+}
+
+.container{
+  width:250px;
+}
+
+
+/*  ----------styling the card class----------- */
+.card{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--White);
+  padding: 0.78rem;
+  border-radius: 10px;
+  
+}
+
+/* ---------------------styling the qrcode imgage */
+.card img{
+  width:100%;
+  border-radius: 0.5rem;
+  margin-bottom: 8px;
+}
+
+/* -----------------styling the text container ------- */
+.card .text{
+ padding: 10px;
+ text-align: center;
+ line-height: 20px;
+ 
+}
+
+
+/* ---------------stying the text title (h2)---------- */
+
+.text h2{
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--Dark-blue);
+  margin-top: 2px ;
+  
+
+  
+}
+
+/*  --------styling the paragraph  tag */
+.text p{
+  margin-top: 15px;
+  font-size: 0.88921rem;
+  color: var(--Grayish-blue);
+  font-weight: 400;
+  /* padding: 0.5rem; */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Light-gray); 
+  width: 100vw;
+  height: 100vh;
+}
+
+.card {
+  width: 250px;
+  height: auto;
+  text-align: center;
+  background-color: var(--White);
+  padding: .8rem .8rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+  box-shadow: 10px 33px 28px -7px hsla(220, 15%, 55%, 0.34);
+  
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  border-radius: .5rem;
+}
+
+.card h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--Dark-blue);
+}
+
+.card p {
+  font-size: .8rem;
+  font-weight: 400;
+  color: var(--Grayish-blue);
+  line-height: 1rem;
+}
+
+.card div { padding: .5rem; } */
